@@ -1,0 +1,17 @@
+text = input("Enter score to reach next week: ")
+value = int(text)
+
+info['goal'] = value
+
+print("Updated dictionary")
+print("info = ", info)
+
+text = info['score']
+score = int(text)
+
+text = info['goal']
+score_goal = int(text)
+
+difference = score_goal - score
+
+print("That's", difference, "points more.")
